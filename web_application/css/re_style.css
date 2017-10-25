@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+* { font-family: 'Nanum Gothic', sans-serif; }
+body {
+  background-color: #E0E3DA;
+}
+.spaceLeft {
+  margin-left: 10px;
+}
+.spaceRight {
+  margin-right: 10px;
+}
+.btn span.fa {
+	opacity: 0;
+}
+.btn.active span.fa {
+	opacity: 1;
+}
+.Banner_img {
+  margin: 0 auto;
+}
+.page-header {
+  height: auto;
+  align-self: center;
+}
+button, .check_btn {
+  padding: 5px 10px;
+  width: 20%;
+  color: white;
+  background: #58626C;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
